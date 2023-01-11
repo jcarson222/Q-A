@@ -1,4 +1,5 @@
 //using selectors inside the element
+
 const questions = document.querySelectorAll('.question');
 
 questions.forEach((question) => {
@@ -15,7 +16,3 @@ questions.forEach((question) => {
         question.classList.toggle('show-text');
     });
 });
-
-
-// traversing the dom
-
